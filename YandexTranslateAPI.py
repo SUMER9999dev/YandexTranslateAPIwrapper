@@ -1,4 +1,4 @@
-#    todo app, that app just write tasks to json.
+#    Yandex translate wrapper, that app just translate text.
 #    Copyright (C) 2020  SUMER
 #
 #    This program is free software: you can redistribute it and/or modify
