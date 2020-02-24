@@ -17,7 +17,7 @@
 import requests
 from getch import pause
 from os import system
-system("title "+"TODO")
+system("title "+"Yandex translate wrapper")
 def Translate(APIkey, FirstLang, SecondLang, Text):
     requestURL = f"https://translate.yandex.net/api/v1.5/tr.json/translate?key={APIkey}&text={Text}&lang={FirstLang}-{SecondLang}"
     res = requests.get(requestURL).json()
